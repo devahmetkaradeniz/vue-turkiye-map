@@ -1,0 +1,44 @@
+.vue-turkey-map-city {
+    fill: #31363F;
+    stroke: #EEEEEE;
+    transition: fill 0.3s ease;
+    
+    &:hover {
+        fill: #76ABAE;
+        cursor: pointer;
+    }
+
+    &-selected {
+        fill: #76ABAE !important;
+    }
+    
+    &-region {
+        &-mediterrenian {
+            fill: #1e6b5e;
+        }
+
+        &-eastern-anatolia {
+            fill: #844a39;
+        }
+
+        &-aegean {
+            fill: #4d394b;
+        }
+
+        &-southeastern-anatolia {
+            fill: #7a3b28;
+        }
+
+        &-central-anatolia {
+            fill: #6a1b19;
+        }
+
+        &-black-sea {
+            fill: #253d1a;
+        }
+
+        &-marmara {
+            fill: #9b9501;
+        }
+    }
+}

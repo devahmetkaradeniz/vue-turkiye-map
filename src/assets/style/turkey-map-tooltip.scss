@@ -1,0 +1,15 @@
+.vue-turkey-map-tooltip {
+    position: absolute;
+    z-index: 1;
+    padding: .7rem .5rem;
+    border-radius: .5rem;
+    pointer-events: none;
+    
+    &-fade-enter-active,&-fade-leave-active {
+        transition: opacity 0.3s ease;
+    }
+
+    &-fade-enter-from,&-fade-leave-to {
+        opacity: 0;
+    }
+}
